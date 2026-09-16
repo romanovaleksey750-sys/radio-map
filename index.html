@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_799e3311a338a27429a060b10245ae5b {
+                #map_75d4889baa62235debe4a95fcea9a00c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,7 +54,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_799e3311a338a27429a060b10245ae5b" ></div>
+            <div class="folium-map" id="map_75d4889baa62235debe4a95fcea9a00c" ></div>
         
     
 <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;
@@ -72,8 +72,8 @@
 <script>
     
     
-            var map_799e3311a338a27429a060b10245ae5b = L.map(
-                "map_799e3311a338a27429a060b10245ae5b",
+            var map_75d4889baa62235debe4a95fcea9a00c = L.map(
+                "map_75d4889baa62235debe4a95fcea9a00c",
                 {
                     center: [56.851607, 36.687092],
                     crs: L.CRS.EPSG3857,
@@ -90,14 +90,14 @@
 
         
     
-            var tile_layer_5f4735ea7845a4a3424caeae41ac465e = L.tileLayer(
-                "https://tile.openstreetmap.de/{z}/{x}/{y}.png",
+            var tile_layer_39f802c0c6be3019dad48a8fc1f0eb41 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
   "maxZoom": 18,
   "maxNativeZoom": 18,
   "noWrap": false,
-  "attribution": "\u00a9 OpenStreetMap contributors",
+  "attribution": "Tiles \u00a9 Esri \u2014 Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
   "subdomains": "abc",
   "detectRetina": false,
   "tms": false,
@@ -107,17 +107,17 @@
             );
         
     
-            tile_layer_5f4735ea7845a4a3424caeae41ac465e.addTo(map_799e3311a338a27429a060b10245ae5b);
+            tile_layer_39f802c0c6be3019dad48a8fc1f0eb41.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var marker_6d4e7fac2a09e5b30caf976aa409a8d6 = L.marker(
+            var marker_4ebe16e83b7d728bc43bc0d29bb54339 = L.marker(
                 [56.851607, 36.687092],
                 {
 }
-            ).addTo(map_799e3311a338a27429a060b10245ae5b);
+            ).addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var icon_6c5bce03367f0a625980cb8ad8c57fb9 = L.AwesomeMarkers.icon(
+            var icon_6612431c57cfd5a92a68984b427fdbf7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -128,33 +128,33 @@
             );
         
     
-        var popup_cb037068959081e32e08653594b76460 = L.popup({
+        var popup_10ee0f11f0dbd0193aeed60e6505f0c2 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_bc6165c2a62e7fcff8fea48386482b92 = $(`<div id="html_bc6165c2a62e7fcff8fea48386482b92" style="width: 100.0%; height: 100.0%;">📻 Приёмный пункт<br>пос. 1 Мая, Конаковский р-н</div>`)[0];
-                popup_cb037068959081e32e08653594b76460.setContent(html_bc6165c2a62e7fcff8fea48386482b92);
+                var html_e05e471ea4ba1f59bd161035f5918132 = $(`<div id="html_e05e471ea4ba1f59bd161035f5918132" style="width: 100.0%; height: 100.0%;">📻 Приёмный пункт<br>пос. 1 Мая, Конаковский р-н</div>`)[0];
+                popup_10ee0f11f0dbd0193aeed60e6505f0c2.setContent(html_e05e471ea4ba1f59bd161035f5918132);
             
         
 
-        marker_6d4e7fac2a09e5b30caf976aa409a8d6.bindPopup(popup_cb037068959081e32e08653594b76460)
+        marker_4ebe16e83b7d728bc43bc0d29bb54339.bindPopup(popup_10ee0f11f0dbd0193aeed60e6505f0c2)
         ;
 
         
     
     
-                marker_6d4e7fac2a09e5b30caf976aa409a8d6.setIcon(icon_6c5bce03367f0a625980cb8ad8c57fb9);
+                marker_4ebe16e83b7d728bc43bc0d29bb54339.setIcon(icon_6612431c57cfd5a92a68984b427fdbf7);
             
     
-            var circle_cd1e222ff0d7a2bffa5298cd8d77e587 = L.circle(
+            var circle_c49a835ade2e85d4a7a876243ae2e85a = L.circle(
                 [56.851607, 36.687092],
                 {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 25000, "stroke": true, "weight": 1}
-            ).addTo(map_799e3311a338a27429a060b10245ae5b);
+            ).addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            circle_cd1e222ff0d7a2bffa5298cd8d77e587.bindTooltip(
+            circle_c49a835ade2e85d4a7a876243ae2e85a.bindTooltip(
                 `<div>
                      25 км
                  </div>`,
@@ -164,13 +164,13 @@
             );
         
     
-            var circle_30a934d3911d512818cb5321251ebfe5 = L.circle(
+            var circle_15e6614e36873d9198a23c2b38800873 = L.circle(
                 [56.851607, 36.687092],
                 {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 50000, "stroke": true, "weight": 1}
-            ).addTo(map_799e3311a338a27429a060b10245ae5b);
+            ).addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            circle_30a934d3911d512818cb5321251ebfe5.bindTooltip(
+            circle_15e6614e36873d9198a23c2b38800873.bindTooltip(
                 `<div>
                      50 км
                  </div>`,
@@ -180,13 +180,13 @@
             );
         
     
-            var circle_3ed82042df5c063d43fe3f0124af5e57 = L.circle(
+            var circle_da66ab3bd778e770e6a6375fb0100ac5 = L.circle(
                 [56.851607, 36.687092],
                 {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 100000, "stroke": true, "weight": 1}
-            ).addTo(map_799e3311a338a27429a060b10245ae5b);
+            ).addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            circle_3ed82042df5c063d43fe3f0124af5e57.bindTooltip(
+            circle_da66ab3bd778e770e6a6375fb0100ac5.bindTooltip(
                 `<div>
                      100 км
                  </div>`,
@@ -196,13 +196,13 @@
             );
         
     
-            var circle_3da0d7f1941e677cc6505aaff6e11198 = L.circle(
+            var circle_9f6aafc4dbd1fe19987d19fb1d7d4b54 = L.circle(
                 [56.851607, 36.687092],
                 {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 200000, "stroke": true, "weight": 1}
-            ).addTo(map_799e3311a338a27429a060b10245ae5b);
+            ).addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            circle_3da0d7f1941e677cc6505aaff6e11198.bindTooltip(
+            circle_9f6aafc4dbd1fe19987d19fb1d7d4b54.bindTooltip(
                 `<div>
                      200 км
                  </div>`,
@@ -212,13 +212,13 @@
             );
         
     
-            var circle_89311c46a120a7056fb7a30e6609aca2 = L.circle(
+            var circle_8ea03fde2067bd12278330d67dbac740 = L.circle(
                 [56.851607, 36.687092],
                 {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 300000, "stroke": true, "weight": 1}
-            ).addTo(map_799e3311a338a27429a060b10245ae5b);
+            ).addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            circle_89311c46a120a7056fb7a30e6609aca2.bindTooltip(
+            circle_8ea03fde2067bd12278330d67dbac740.bindTooltip(
                 `<div>
                      300 км
                  </div>`,
@@ -228,19 +228,19 @@
             );
         
     
-            var feature_group_79628d6204fd4cb5a3ca71585f5f8ae3 = L.featureGroup(
+            var feature_group_5f76d16c60bf6b827f8525f6810ecc87 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_d164f6e1cb4eb139198df1e33c2b4907 = L.polyline(
+            var poly_line_a67c20b4dd8aa339dccdf650290961cd = L.polyline(
                 [[56.851607, 36.687092], [56.83880003242857, 36.709818930607135], [56.826724926857146, 36.73272148957143], [56.81538168328571, 36.755799676892856], [56.8047703017143, 36.779053492571435], [56.79489078214286, 36.80248293660714], [56.785743124571425, 36.826088008999996], [56.777327329, 36.84986870975], [56.769643395428574, 36.87382503885714], [56.762691323857155, 36.89795699632143], [56.756471114285716, 36.92226458214286], [56.750982766714294, 36.946747796321425], [56.74622628114287, 36.97140663885715], [56.74220165757143, 36.99624110975], [56.738908896000005, 37.021251209], [56.73634799642858, 37.04643693660715], [56.73451895885715, 37.07179829257144], [56.73342178328571, 37.097335276892856], [56.733056469714285, 37.12304788957143], [56.73342301814287, 37.14893613060715], [56.73452142857143, 37.175000000000004]],
                 {"bubblingMouseEvents": true, "color": "#1565c0", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1565c0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_79628d6204fd4cb5a3ca71585f5f8ae3);
+            ).addTo(feature_group_5f76d16c60bf6b827f8525f6810ecc87);
         
     
-            poly_line_d164f6e1cb4eb139198df1e33c2b4907.bindTooltip(
+            poly_line_a67c20b4dd8aa339dccdf650290961cd.bindTooltip(
                 `<div>
                      Дубна — 14 станций, ср. 34 км
                  </div>`,
@@ -250,14 +250,14 @@
             );
         
     
-            var marker_90f68dfcf7c32fad87615f2d1c6a6698 = L.marker(
+            var marker_4a38d48083050e642a47dbe311f9235b = L.marker(
                 [56.73452142857143, 37.175000000000004],
                 {
 }
-            ).addTo(feature_group_79628d6204fd4cb5a3ca71585f5f8ae3);
+            ).addTo(feature_group_5f76d16c60bf6b827f8525f6810ecc87);
         
     
-            var icon_88f8018df13f0e60020b3f5ff71da891 = L.AwesomeMarkers.icon(
+            var icon_820dec39b953c943c1b9d93e19a0b553 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -268,24 +268,24 @@
             );
         
     
-        var popup_ac8ac78bf5a11191260a1b7b2646ddb3 = L.popup({
+        var popup_3407d657b8b316cd9ec6478a911d1ae1 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_3d720a1c8e0e6607c9e059f04ce030ec = $(`<div id="html_3d720a1c8e0e6607c9e059f04ce030ec" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Дубна</b> <span style='color:#888;'>(14 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>88.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Шансон</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Хит ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Дача</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Европа Плюс</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио 7</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Вести ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>99.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Юмор ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>101.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>DFM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>102.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Energy FM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>103.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Дорожное Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Монте Карло</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Наше Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Ваня</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr></table></div></div>`)[0];
-                popup_ac8ac78bf5a11191260a1b7b2646ddb3.setContent(html_3d720a1c8e0e6607c9e059f04ce030ec);
+                var html_97022a84ea592f59f423818edba28de9 = $(`<div id="html_97022a84ea592f59f423818edba28de9" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Дубна</b> <span style='color:#888;'>(14 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>88.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Шансон</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Хит ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Дача</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Европа Плюс</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио 7</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Вести ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>99.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Юмор ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>101.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>DFM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>102.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Energy FM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>103.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Дорожное Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Монте Карло</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Наше Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Ваня</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>34 км</td></tr></table></div></div>`)[0];
+                popup_3407d657b8b316cd9ec6478a911d1ae1.setContent(html_97022a84ea592f59f423818edba28de9);
             
         
 
-        marker_90f68dfcf7c32fad87615f2d1c6a6698.bindPopup(popup_ac8ac78bf5a11191260a1b7b2646ddb3)
+        marker_4a38d48083050e642a47dbe311f9235b.bindPopup(popup_3407d657b8b316cd9ec6478a911d1ae1)
         ;
 
         
     
     
-            marker_90f68dfcf7c32fad87615f2d1c6a6698.bindTooltip(
+            marker_4a38d48083050e642a47dbe311f9235b.bindTooltip(
                 `<div>
                      Дубна — 14 станций
                  </div>`,
@@ -295,25 +295,25 @@
             );
         
     
-                marker_90f68dfcf7c32fad87615f2d1c6a6698.setIcon(icon_88f8018df13f0e60020b3f5ff71da891);
+                marker_4a38d48083050e642a47dbe311f9235b.setIcon(icon_820dec39b953c943c1b9d93e19a0b553);
             
     
-            feature_group_79628d6204fd4cb5a3ca71585f5f8ae3.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_5f76d16c60bf6b827f8525f6810ecc87.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_76573eca0fe1319020a0d6e5c508d0b1 = L.featureGroup(
+            var feature_group_b495e5bbbe69714126e894fe6b50eb22 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_8a55ac2b60ac62b6de962808816f1fad = L.polyline(
+            var poly_line_a5e82e9ac7799435ca14c3988e810772 = L.polyline(
                 [[56.851607, 36.687092], [56.863517711, 36.73983950025], [56.876797784000004, 36.791839411000005], [56.89144721899999, 36.843091732249995], [56.907466016000015, 36.893596464000005], [56.924854175, 36.94335360625001], [56.94361169599999, 36.992363159], [56.963738578999994, 37.04062512225], [56.985234824, 37.088139496], [57.008100431, 37.13490628025001], [57.0323354, 37.180925475], [57.057939731000005, 37.22619708025], [57.084913424, 37.270721096], [57.11325647899999, 37.31449752225], [57.142968896, 37.357526359000005], [57.174050675, 37.39980760625001], [57.206501816, 37.441341264], [57.24032231899999, 37.48212733225], [57.275512184, 37.522165811], [57.312071411000005, 37.56145670025], [57.35, 37.6]],
                 {"bubblingMouseEvents": true, "color": "#ef6c00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef6c00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_76573eca0fe1319020a0d6e5c508d0b1);
+            ).addTo(feature_group_b495e5bbbe69714126e894fe6b50eb22);
         
     
-            poly_line_8a55ac2b60ac62b6de962808816f1fad.bindTooltip(
+            poly_line_a5e82e9ac7799435ca14c3988e810772.bindTooltip(
                 `<div>
                      Кашин — 1 станций, ср. 80 км
                  </div>`,
@@ -323,14 +323,14 @@
             );
         
     
-            var marker_f06e919d0cfd978154f7e73d6f04c068 = L.marker(
+            var marker_51416d5d58c52d8d2f72c01af698d976 = L.marker(
                 [57.35, 37.6],
                 {
 }
-            ).addTo(feature_group_76573eca0fe1319020a0d6e5c508d0b1);
+            ).addTo(feature_group_b495e5bbbe69714126e894fe6b50eb22);
         
     
-            var icon_da97cf718aee832e688dd5b5be19c037 = L.AwesomeMarkers.icon(
+            var icon_eeba000ca38c273fb2d8aaaffab3f67b = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -341,24 +341,24 @@
             );
         
     
-        var popup_e5535932a058245b86280d5429e254fb = L.popup({
+        var popup_4430d32bc3242ba8636be63200042f03 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_d1dbf7d88b17fe275695ad779e0e14cf = $(`<div id="html_d1dbf7d88b17fe275695ad779e0e14cf" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Кашин</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>80 км</td></tr></table></div></div>`)[0];
-                popup_e5535932a058245b86280d5429e254fb.setContent(html_d1dbf7d88b17fe275695ad779e0e14cf);
+                var html_fa0ede6af57b1ec1c6fc9bf44153b2a5 = $(`<div id="html_fa0ede6af57b1ec1c6fc9bf44153b2a5" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Кашин</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>80 км</td></tr></table></div></div>`)[0];
+                popup_4430d32bc3242ba8636be63200042f03.setContent(html_fa0ede6af57b1ec1c6fc9bf44153b2a5);
             
         
 
-        marker_f06e919d0cfd978154f7e73d6f04c068.bindPopup(popup_e5535932a058245b86280d5429e254fb)
+        marker_51416d5d58c52d8d2f72c01af698d976.bindPopup(popup_4430d32bc3242ba8636be63200042f03)
         ;
 
         
     
     
-            marker_f06e919d0cfd978154f7e73d6f04c068.bindTooltip(
+            marker_51416d5d58c52d8d2f72c01af698d976.bindTooltip(
                 `<div>
                      Кашин — 1 станций
                  </div>`,
@@ -368,25 +368,25 @@
             );
         
     
-                marker_f06e919d0cfd978154f7e73d6f04c068.setIcon(icon_da97cf718aee832e688dd5b5be19c037);
+                marker_51416d5d58c52d8d2f72c01af698d976.setIcon(icon_eeba000ca38c273fb2d8aaaffab3f67b);
             
     
-            feature_group_76573eca0fe1319020a0d6e5c508d0b1.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_b495e5bbbe69714126e894fe6b50eb22.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_ed268e52a59846ea028c6910b57e5abe = L.featureGroup(
+            var feature_group_056ea404622d798c07557c8a2a5e4a23 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_54a90155d68d11afcfe6d6edaf276a5a = L.polyline(
+            var poly_line_9f04086acd4a9adb71dae09c4c7b3620 = L.polyline(
                 [[56.851607, 36.687092], [56.843205211000004, 36.72053512525], [56.835797784, 36.75394691100001], [56.829384719, 36.78732735725], [56.823966016000014, 36.820676464], [56.819541674999996, 36.853994231250006], [56.81611169599999, 36.88728065899999], [56.813676079000004, 36.92053574725], [56.812234824, 36.953759495999996], [56.81178793100001, 36.98695190525], [56.8123354, 37.020112974999996], [56.813877231, 37.05324270525], [56.816413424000004, 37.086341096], [56.819943979, 37.11940814725], [56.824468896, 37.152443859], [56.829988175000004, 37.18544823125001], [56.83650181600001, 37.218421264], [56.844009819, 37.251362957249995], [56.852512184000005, 37.284273311], [56.86200891100001, 37.31715232525], [56.8725, 37.35]],
                 {"bubblingMouseEvents": true, "color": "#1565c0", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1565c0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_ed268e52a59846ea028c6910b57e5abe);
+            ).addTo(feature_group_056ea404622d798c07557c8a2a5e4a23);
         
     
-            poly_line_54a90155d68d11afcfe6d6edaf276a5a.bindTooltip(
+            poly_line_9f04086acd4a9adb71dae09c4c7b3620.bindTooltip(
                 `<div>
                      Кимры — 1 станций, ср. 41 км
                  </div>`,
@@ -396,14 +396,14 @@
             );
         
     
-            var marker_34e0e1b83c059f6e83d5282d9151247f = L.marker(
+            var marker_ff10a71ed6eb70ddf841042f166653fd = L.marker(
                 [56.8725, 37.35],
                 {
 }
-            ).addTo(feature_group_ed268e52a59846ea028c6910b57e5abe);
+            ).addTo(feature_group_056ea404622d798c07557c8a2a5e4a23);
         
     
-            var icon_95bdafaad6126afa95a2ef78e43b8b55 = L.AwesomeMarkers.icon(
+            var icon_add99b62c194c9ff8a3d4a6487d069bf = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -414,24 +414,24 @@
             );
         
     
-        var popup_ad28789866f30846c6b92eb61871df6f = L.popup({
+        var popup_8a0538520054aeeda9a3c06dea0fabed = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_3e38443b362143793437878d120e7c0f = $(`<div id="html_3e38443b362143793437878d120e7c0f" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Кимры</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>88.1</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>41 км</td></tr></table></div></div>`)[0];
-                popup_ad28789866f30846c6b92eb61871df6f.setContent(html_3e38443b362143793437878d120e7c0f);
+                var html_68e3e03a22d12b77e82c5c7fab9abdef = $(`<div id="html_68e3e03a22d12b77e82c5c7fab9abdef" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Кимры</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>88.1</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>41 км</td></tr></table></div></div>`)[0];
+                popup_8a0538520054aeeda9a3c06dea0fabed.setContent(html_68e3e03a22d12b77e82c5c7fab9abdef);
             
         
 
-        marker_34e0e1b83c059f6e83d5282d9151247f.bindPopup(popup_ad28789866f30846c6b92eb61871df6f)
+        marker_ff10a71ed6eb70ddf841042f166653fd.bindPopup(popup_8a0538520054aeeda9a3c06dea0fabed)
         ;
 
         
     
     
-            marker_34e0e1b83c059f6e83d5282d9151247f.bindTooltip(
+            marker_ff10a71ed6eb70ddf841042f166653fd.bindTooltip(
                 `<div>
                      Кимры — 1 станций
                  </div>`,
@@ -441,25 +441,25 @@
             );
         
     
-                marker_34e0e1b83c059f6e83d5282d9151247f.setIcon(icon_95bdafaad6126afa95a2ef78e43b8b55);
+                marker_ff10a71ed6eb70ddf841042f166653fd.setIcon(icon_add99b62c194c9ff8a3d4a6487d069bf);
             
     
-            feature_group_ed268e52a59846ea028c6910b57e5abe.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_056ea404622d798c07557c8a2a5e4a23.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_bda757a13f74b81562b3fe19fa57098f = L.featureGroup(
+            var feature_group_f954cdc62d31446dc6bae046f4eea741 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_3731c238c991c741797453d97ce2d44d = L.polyline(
+            var poly_line_c05d5b01d95277e54afe36846b894b9a = L.polyline(
                 [[56.851607, 36.687092], [56.825033186, 36.68201652525], [56.798528684000004, 36.677718511], [56.772093493999996, 36.674197957249994], [56.74572761600002, 36.671454864000005], [56.719431050000004, 36.66948923125], [56.693203796, 36.668301058999994], [56.66704585400001, 36.667890347249994], [56.640957224000005, 36.66825709599999], [56.61493790600001, 36.669401305250005], [56.58898790000001, 36.671322974999995], [56.563107206000005, 36.674022105249996], [56.53729582400001, 36.677498695999994], [56.511553754000005, 36.681752747249995], [56.485880996000006, 36.686784259], [56.46027755, 36.69259323125], [56.434743416, 36.699179664], [56.409278594, 36.706543557249994], [56.383883084000004, 36.714684911], [56.358556886, 36.72360372525], [56.3333, 36.7333]],
                 {"bubblingMouseEvents": true, "color": "#1565c0", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1565c0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_bda757a13f74b81562b3fe19fa57098f);
+            ).addTo(feature_group_f954cdc62d31446dc6bae046f4eea741);
         
     
-            poly_line_3731c238c991c741797453d97ce2d44d.bindTooltip(
+            poly_line_c05d5b01d95277e54afe36846b894b9a.bindTooltip(
                 `<div>
                      Клин — 4 станций, ср. 58 км
                  </div>`,
@@ -469,14 +469,14 @@
             );
         
     
-            var marker_8682d6534efbaddf529b14adfc383de0 = L.marker(
+            var marker_69a879220174daa6f93217ed577737af = L.marker(
                 [56.3333, 36.7333],
                 {
 }
-            ).addTo(feature_group_bda757a13f74b81562b3fe19fa57098f);
+            ).addTo(feature_group_f954cdc62d31446dc6bae046f4eea741);
         
     
-            var icon_2a503e3c0698cfe837de9cb590b65fbc = L.AwesomeMarkers.icon(
+            var icon_6e55222a5f50fdd2ee27f3f4b495e8e3 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -487,24 +487,24 @@
             );
         
     
-        var popup_01bd3ed0ee096ed45d4be4cd033e08f7 = L.popup({
+        var popup_544b6fba3b76114861f1738c67c280c8 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_fcd16b8b24cca7caa8841f65eeaab85d = $(`<div id="html_fcd16b8b24cca7caa8841f65eeaab85d" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Клин</b> <span style='color:#888;'>(4 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Дорожное Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>58 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>58 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.1</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Европа Плюс</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>58 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Авто Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>58 км</td></tr></table></div></div>`)[0];
-                popup_01bd3ed0ee096ed45d4be4cd033e08f7.setContent(html_fcd16b8b24cca7caa8841f65eeaab85d);
+                var html_689a152810f66c503d0f59b78ef66d15 = $(`<div id="html_689a152810f66c503d0f59b78ef66d15" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Клин</b> <span style='color:#888;'>(4 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Дорожное Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>58 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>58 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.1</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Европа Плюс</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>58 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Авто Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>58 км</td></tr></table></div></div>`)[0];
+                popup_544b6fba3b76114861f1738c67c280c8.setContent(html_689a152810f66c503d0f59b78ef66d15);
             
         
 
-        marker_8682d6534efbaddf529b14adfc383de0.bindPopup(popup_01bd3ed0ee096ed45d4be4cd033e08f7)
+        marker_69a879220174daa6f93217ed577737af.bindPopup(popup_544b6fba3b76114861f1738c67c280c8)
         ;
 
         
     
     
-            marker_8682d6534efbaddf529b14adfc383de0.bindTooltip(
+            marker_69a879220174daa6f93217ed577737af.bindTooltip(
                 `<div>
                      Клин — 4 станций
                  </div>`,
@@ -514,25 +514,25 @@
             );
         
     
-                marker_8682d6534efbaddf529b14adfc383de0.setIcon(icon_2a503e3c0698cfe837de9cb590b65fbc);
+                marker_69a879220174daa6f93217ed577737af.setIcon(icon_6e55222a5f50fdd2ee27f3f4b495e8e3);
             
     
-            feature_group_bda757a13f74b81562b3fe19fa57098f.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_f954cdc62d31446dc6bae046f4eea741.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_668fbb63813b6de6f9f713abd34a8407 = L.featureGroup(
+            var feature_group_e3567faa19638220b6d6fb98bd34e104 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_0b627d8cc4f7d326b8b0e6ae762e9e2c = L.polyline(
+            var poly_line_b0bb966b1056979a75fc78711238cee5 = L.polyline(
                 [[56.851607, 36.687092], [56.843130211, 36.68807700025], [56.834747784, 36.689289411000004], [56.826459719, 36.69072923225], [56.81826601600001, 36.692396464000005], [56.810166675000005, 36.694291106250006], [56.80216169599999, 36.696413158999995], [56.79425107899999, 36.69876262225], [56.786434824, 36.701339496], [56.778712931, 36.70414378025001], [56.77108539999999, 36.707175475], [56.763552231, 36.71043458025], [56.756113424, 36.713921096], [56.74876897899999, 36.71763502225], [56.741518895999995, 36.721576359], [56.734363175, 36.72574510625], [56.72730181599999, 36.730141264000004], [56.720334818999994, 36.734764832249994], [56.713462183999994, 36.739615811], [56.706683911, 36.74469420025], [56.699999999999996, 36.75]],
                 {"bubblingMouseEvents": true, "color": "#2e7d32", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2e7d32", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_668fbb63813b6de6f9f713abd34a8407);
+            ).addTo(feature_group_e3567faa19638220b6d6fb98bd34e104);
         
     
-            poly_line_0b627d8cc4f7d326b8b0e6ae762e9e2c.bindTooltip(
+            poly_line_b0bb966b1056979a75fc78711238cee5.bindTooltip(
                 `<div>
                      Конаково — 7 станций, ср. 17 км
                  </div>`,
@@ -542,14 +542,14 @@
             );
         
     
-            var marker_bbd91dccf5ee5d05b208055947c95fc2 = L.marker(
+            var marker_16c569473cc9b7e9cdff0352ca487c14 = L.marker(
                 [56.699999999999996, 36.75],
                 {
 }
-            ).addTo(feature_group_668fbb63813b6de6f9f713abd34a8407);
+            ).addTo(feature_group_e3567faa19638220b6d6fb98bd34e104);
         
     
-            var icon_34bdf7b467e6ec3804a1ef8dc0b139fe = L.AwesomeMarkers.icon(
+            var icon_19b59f8ab25a732df51e9238ebf5c003 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -560,24 +560,24 @@
             );
         
     
-        var popup_6011aa5b9640c11ce9afaad4de1528dc = L.popup({
+        var popup_06c9b465434a4dd2e3efbe55505bcce7 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_07a883c2feee325a9169c86812b8094c = $(`<div id="html_07a883c2feee325a9169c86812b8094c" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Конаково</b> <span style='color:#888;'>(7 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>91.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Европа Плюс</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Ретро ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>97.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Пилот</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>DFM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Маруся ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.1</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr></table></div></div>`)[0];
-                popup_6011aa5b9640c11ce9afaad4de1528dc.setContent(html_07a883c2feee325a9169c86812b8094c);
+                var html_aae6c03c8a76adec5bc1aefd7a6a5d64 = $(`<div id="html_aae6c03c8a76adec5bc1aefd7a6a5d64" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Конаково</b> <span style='color:#888;'>(7 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>91.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Европа Плюс</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Ретро ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>97.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Пилот</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>DFM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Маруся ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.1</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr></table></div></div>`)[0];
+                popup_06c9b465434a4dd2e3efbe55505bcce7.setContent(html_aae6c03c8a76adec5bc1aefd7a6a5d64);
             
         
 
-        marker_bbd91dccf5ee5d05b208055947c95fc2.bindPopup(popup_6011aa5b9640c11ce9afaad4de1528dc)
+        marker_16c569473cc9b7e9cdff0352ca487c14.bindPopup(popup_06c9b465434a4dd2e3efbe55505bcce7)
         ;
 
         
     
     
-            marker_bbd91dccf5ee5d05b208055947c95fc2.bindTooltip(
+            marker_16c569473cc9b7e9cdff0352ca487c14.bindTooltip(
                 `<div>
                      Конаково — 7 станций
                  </div>`,
@@ -587,25 +587,25 @@
             );
         
     
-                marker_bbd91dccf5ee5d05b208055947c95fc2.setIcon(icon_34bdf7b467e6ec3804a1ef8dc0b139fe);
+                marker_16c569473cc9b7e9cdff0352ca487c14.setIcon(icon_19b59f8ab25a732df51e9238ebf5c003);
             
     
-            feature_group_668fbb63813b6de6f9f713abd34a8407.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_e3567faa19638220b6d6fb98bd34e104.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_c76dd3785346ca7c813191eaf83bf3a1 = L.featureGroup(
+            var feature_group_fb0c890b8f4f9d8f795a5b168d3770a7 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_04514283f88c63931cd7fe12b35d4304 = L.polyline(
+            var poly_line_e04afd087495eda7fc69ab61ef8b6f04 = L.polyline(
                 [[56.851607, 36.687092], [56.78370739329167, 36.71769386483333], [56.717193804833336, 36.74993770266667], [56.65206623462499, 36.783823513499996], [56.58832468266668, 36.81935129733334], [56.52596914895834, 36.85652105416667], [56.46499963349999, 36.895332784], [56.40541613629166, 36.93578648683334], [56.34721865733333, 36.97788216266667], [56.290407196625004, 37.02161981150001], [56.23498175416667, 37.066999433333336], [56.180942329958334, 37.11402102816667], [56.128288923999996, 37.162684596], [56.07702153629167, 37.212990136833334], [56.027140166833334, 37.26493765066667], [55.978644815624996, 37.318527137500006], [55.93153548266666, 37.373758597333335], [55.88581216795833, 37.43063203016666], [55.8414748715, 37.48914743600001], [55.79852359329167, 37.54930481483334], [55.75695833333333, 37.61110416666667]],
                 {"bubblingMouseEvents": true, "color": "#ef6c00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef6c00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_c76dd3785346ca7c813191eaf83bf3a1);
+            ).addTo(feature_group_fb0c890b8f4f9d8f795a5b168d3770a7);
         
     
-            poly_line_04514283f88c63931cd7fe12b35d4304.bindTooltip(
+            poly_line_e04afd087495eda7fc69ab61ef8b6f04.bindTooltip(
                 `<div>
                      Москва — 24 станций, ср. 140 км
                  </div>`,
@@ -615,14 +615,14 @@
             );
         
     
-            var marker_57f01f55466978a648ddd704157a3fde = L.marker(
+            var marker_394c65d95c2173395bd78caef7c107d8 = L.marker(
                 [55.75695833333333, 37.61110416666667],
                 {
 }
-            ).addTo(feature_group_c76dd3785346ca7c813191eaf83bf3a1);
+            ).addTo(feature_group_fb0c890b8f4f9d8f795a5b168d3770a7);
         
     
-            var icon_c9d347800690bcb3985190b5c78e09a7 = L.AwesomeMarkers.icon(
+            var icon_edf2a22e2ef055b2129fa8b7da856003 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -633,24 +633,24 @@
             );
         
     
-        var popup_30c4d053dbacab7a20be78bcae578b9e = L.popup({
+        var popup_7973834bf9e7e817dce2940464036250 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_4755392768ff9868c5ee1c0966fd2548 = $(`<div id="html_4755392768ff9868c5ee1c0966fd2548" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Москва</b> <span style='color:#888;'>(24 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>87.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Like FM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>88.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Юмор ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>89.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Калина Красная</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>89.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Рекорд</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.3</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Авто Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Релакс ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Восток ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Первое Спортивное</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Говорит Москва</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Звезда</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Такси ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Детское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>97.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Комсомольская Правда</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Новое Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Романтик</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>99.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русский Хит</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>100.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Жара ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>101.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Наше Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>103.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Маяк ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Love Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Маруся ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Хит ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Милицейская Волна</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr></table></div></div>`)[0];
-                popup_30c4d053dbacab7a20be78bcae578b9e.setContent(html_4755392768ff9868c5ee1c0966fd2548);
+                var html_b5532779b56651286629e9b394ea7746 = $(`<div id="html_b5532779b56651286629e9b394ea7746" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Москва</b> <span style='color:#888;'>(24 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>87.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Like FM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>88.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Юмор ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>89.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Калина Красная</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>89.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Рекорд</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.3</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Авто Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Релакс ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Восток ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Первое Спортивное</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>94.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Говорит Москва</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Звезда</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Такси ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Детское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>97.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Комсомольская Правда</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Новое Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Романтик</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>99.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русский Хит</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>100.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Жара ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>101.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Наше Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>103.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Маяк ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Love Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Маруся ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Хит ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Милицейская Волна</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>140 км</td></tr></table></div></div>`)[0];
+                popup_7973834bf9e7e817dce2940464036250.setContent(html_b5532779b56651286629e9b394ea7746);
             
         
 
-        marker_57f01f55466978a648ddd704157a3fde.bindPopup(popup_30c4d053dbacab7a20be78bcae578b9e)
+        marker_394c65d95c2173395bd78caef7c107d8.bindPopup(popup_7973834bf9e7e817dce2940464036250)
         ;
 
         
     
     
-            marker_57f01f55466978a648ddd704157a3fde.bindTooltip(
+            marker_394c65d95c2173395bd78caef7c107d8.bindTooltip(
                 `<div>
                      Москва — 24 станций
                  </div>`,
@@ -660,25 +660,25 @@
             );
         
     
-                marker_57f01f55466978a648ddd704157a3fde.setIcon(icon_c9d347800690bcb3985190b5c78e09a7);
+                marker_394c65d95c2173395bd78caef7c107d8.setIcon(icon_edf2a22e2ef055b2129fa8b7da856003);
             
     
-            feature_group_c76dd3785346ca7c813191eaf83bf3a1.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_fb0c890b8f4f9d8f795a5b168d3770a7.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_1a67625a1761bcdc3749d01d2fced569 = L.featureGroup(
+            var feature_group_45769d41630505e78029fe08943ab387 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_1e70027570a5c042c56f8d12c68ffa5f = L.polyline(
+            var poly_line_d631ff47bc392c17b2b0a13cdf41e1f4 = L.polyline(
                 [[56.851607, 36.687092], [56.843853186000004, 36.69819247525], [56.836468684, 36.709420311], [56.829453494, 36.720775507249996], [56.82280761600002, 36.732258064], [56.81653105, 36.743867981250006], [56.810623796, 36.755605259], [56.805085854000005, 36.76746989725], [56.799917224, 36.779461896], [56.79511790600001, 36.79158125525001], [56.79068790000001, 36.803827975000004], [56.786627206, 36.81620205525], [56.782935824, 36.828703496], [56.779613753999996, 36.841332297250005], [56.776660996000004, 36.854088459], [56.77407755, 36.86697198125], [56.771863416, 36.879982864000006], [56.770018594, 36.893121107249996], [56.768543084, 36.906386711], [56.767436886000006, 36.919779675250005], [56.7667, 36.9333]],
                 {"bubblingMouseEvents": true, "color": "#2e7d32", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2e7d32", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_1a67625a1761bcdc3749d01d2fced569);
+            ).addTo(feature_group_45769d41630505e78029fe08943ab387);
         
     
-            poly_line_1e70027570a5c042c56f8d12c68ffa5f.bindTooltip(
+            poly_line_d631ff47bc392c17b2b0a13cdf41e1f4.bindTooltip(
                 `<div>
                      Новозавидовский — 1 станций, ср. 17 км
                  </div>`,
@@ -688,14 +688,14 @@
             );
         
     
-            var marker_69c8e43895f228fb684d7484420979b9 = L.marker(
+            var marker_242b404dbf4cf2cd66baf935e73cf7bb = L.marker(
                 [56.7667, 36.9333],
                 {
 }
-            ).addTo(feature_group_1a67625a1761bcdc3749d01d2fced569);
+            ).addTo(feature_group_45769d41630505e78029fe08943ab387);
         
     
-            var icon_ee16d772957fa1e6140b68b67801a8f6 = L.AwesomeMarkers.icon(
+            var icon_f0a7ae06cf8d23128404fa096200bdc7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -706,24 +706,24 @@
             );
         
     
-        var popup_a4dc8785b66a38aeb8ece7892f80ca72 = L.popup({
+        var popup_c02e560a95b5e45e702d7b9c9fca4560 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_74e1d81a5ffa4d041db6219f5beb0a97 = $(`<div id="html_74e1d81a5ffa4d041db6219f5beb0a97" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Новозавидовский</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>88.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr></table></div></div>`)[0];
-                popup_a4dc8785b66a38aeb8ece7892f80ca72.setContent(html_74e1d81a5ffa4d041db6219f5beb0a97);
+                var html_a4102bedde8de91fa71246d4c712401a = $(`<div id="html_a4102bedde8de91fa71246d4c712401a" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Новозавидовский</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>88.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>17 км</td></tr></table></div></div>`)[0];
+                popup_c02e560a95b5e45e702d7b9c9fca4560.setContent(html_a4102bedde8de91fa71246d4c712401a);
             
         
 
-        marker_69c8e43895f228fb684d7484420979b9.bindPopup(popup_a4dc8785b66a38aeb8ece7892f80ca72)
+        marker_242b404dbf4cf2cd66baf935e73cf7bb.bindPopup(popup_c02e560a95b5e45e702d7b9c9fca4560)
         ;
 
         
     
     
-            marker_69c8e43895f228fb684d7484420979b9.bindTooltip(
+            marker_242b404dbf4cf2cd66baf935e73cf7bb.bindTooltip(
                 `<div>
                      Новозавидовский — 1 станций
                  </div>`,
@@ -733,25 +733,25 @@
             );
         
     
-                marker_69c8e43895f228fb684d7484420979b9.setIcon(icon_ee16d772957fa1e6140b68b67801a8f6);
+                marker_242b404dbf4cf2cd66baf935e73cf7bb.setIcon(icon_f0a7ae06cf8d23128404fa096200bdc7);
             
     
-            feature_group_1a67625a1761bcdc3749d01d2fced569.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_45769d41630505e78029fe08943ab387.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_0674ed02d2ac9755e2db128d4098069b = L.featureGroup(
+            var feature_group_d182d89a45888742393557d31217d580 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_7272be1221c12c35e6668166bb4595c8 = L.polyline(
+            var poly_line_52f99afb9807a6a73281c832c5793c0f = L.polyline(
                 [[56.851607, 36.687092], [56.855903186, 36.56106747525], [56.856668684, 36.435920311000004], [56.853903493999994, 36.31165050725], [56.84760761600001, 36.188258064], [56.837781050000004, 36.065742981250004], [56.824423796, 35.944105259], [56.807535854, 35.82334489725], [56.787117224, 35.703461896], [56.76316790600001, 35.58445625525001], [56.7356879, 35.466327975000006], [56.704677206, 35.34907705525], [56.670135824, 35.232703496], [56.632063754, 35.117207297250005], [56.590460996, 35.002588459], [56.54532755, 34.888846981250005], [56.496663416000004, 34.775982864], [56.444468594, 34.66399610725], [56.388743084, 34.552886711], [56.329486886000005, 34.442654675250004], [56.2667, 34.3333]],
                 {"bubblingMouseEvents": true, "color": "#c62828", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c62828", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_0674ed02d2ac9755e2db128d4098069b);
+            ).addTo(feature_group_d182d89a45888742393557d31217d580);
         
     
-            poly_line_7272be1221c12c35e6668166bb4595c8.bindTooltip(
+            poly_line_52f99afb9807a6a73281c832c5793c0f.bindTooltip(
                 `<div>
                      Ржев — 1 станций, ср. 150 км
                  </div>`,
@@ -761,14 +761,14 @@
             );
         
     
-            var marker_6e5a12ee5177913057c01eae2c0ff2ab = L.marker(
+            var marker_b8cef85f57f659d554f95898db7ac01d = L.marker(
                 [56.2667, 34.3333],
                 {
 }
-            ).addTo(feature_group_0674ed02d2ac9755e2db128d4098069b);
+            ).addTo(feature_group_d182d89a45888742393557d31217d580);
         
     
-            var icon_964030e1b8fc34309656f4da68ebe51b = L.AwesomeMarkers.icon(
+            var icon_b75f0f10602ff0361c13dedaa07e656b = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -779,24 +779,24 @@
             );
         
     
-        var popup_f928eba0a48fda30044a183570c46cac = L.popup({
+        var popup_c51705796f45fa7b739127b7d78f60de = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_76538e21163efda750320d732787de85 = $(`<div id="html_76538e21163efda750320d732787de85" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Ржев</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Дорожное Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>150 км</td></tr></table></div></div>`)[0];
-                popup_f928eba0a48fda30044a183570c46cac.setContent(html_76538e21163efda750320d732787de85);
+                var html_8c5f4c8d774314fedf73d255574acab2 = $(`<div id="html_8c5f4c8d774314fedf73d255574acab2" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Ржев</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Дорожное Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>150 км</td></tr></table></div></div>`)[0];
+                popup_c51705796f45fa7b739127b7d78f60de.setContent(html_8c5f4c8d774314fedf73d255574acab2);
             
         
 
-        marker_6e5a12ee5177913057c01eae2c0ff2ab.bindPopup(popup_f928eba0a48fda30044a183570c46cac)
+        marker_b8cef85f57f659d554f95898db7ac01d.bindPopup(popup_c51705796f45fa7b739127b7d78f60de)
         ;
 
         
     
     
-            marker_6e5a12ee5177913057c01eae2c0ff2ab.bindTooltip(
+            marker_b8cef85f57f659d554f95898db7ac01d.bindTooltip(
                 `<div>
                      Ржев — 1 станций
                  </div>`,
@@ -806,25 +806,25 @@
             );
         
     
-                marker_6e5a12ee5177913057c01eae2c0ff2ab.setIcon(icon_964030e1b8fc34309656f4da68ebe51b);
+                marker_b8cef85f57f659d554f95898db7ac01d.setIcon(icon_b75f0f10602ff0361c13dedaa07e656b);
             
     
-            feature_group_0674ed02d2ac9755e2db128d4098069b.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_d182d89a45888742393557d31217d580.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_2046f841e2f2cef005dd845843eff2bc = L.featureGroup(
+            var feature_group_a4ed5a818b468b38719477f6dbfc06c7 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_050462bd295dedda599864d397875e5d = L.polyline(
+            var poly_line_9dafb19d4182dacd7911068e5786fd35 = L.polyline(
                 [[56.851607, 36.687092], [56.790027711, 36.95027700025], [56.736237784, 37.213089411], [56.690237219, 37.47552923225], [56.652026016000015, 37.737596464000006], [56.621604174999995, 37.999291106250006], [56.598971696, 38.260613158999995], [56.584128578999994, 38.521562622249995], [56.577074824, 38.782139496], [56.577810431, 39.04234378025001], [56.586335399999996, 39.302175475], [56.602649731, 39.56163458025], [56.626753424, 39.820721096], [56.658646479, 40.079435022249996], [56.69832889599999, 40.337776359], [56.745800675, 40.59574510625001], [56.801061816, 40.85334126400001], [56.86411231899999, 41.11056483225], [56.934952184000004, 41.367415811], [57.013581411000004, 41.62389420025001], [57.1, 41.88]],
                 {"bubblingMouseEvents": true, "color": "#c62828", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c62828", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_2046f841e2f2cef005dd845843eff2bc);
+            ).addTo(feature_group_a4ed5a818b468b38719477f6dbfc06c7);
         
     
-            poly_line_050462bd295dedda599864d397875e5d.bindTooltip(
+            poly_line_9dafb19d4182dacd7911068e5786fd35.bindTooltip(
                 `<div>
                      Родники — 1 станций, ср. 305 км
                  </div>`,
@@ -834,14 +834,14 @@
             );
         
     
-            var marker_a65e26e15edd232d778bf866682064c9 = L.marker(
+            var marker_dcf594005b50ff1f62c1593eac3d4297 = L.marker(
                 [57.1, 41.88],
                 {
 }
-            ).addTo(feature_group_2046f841e2f2cef005dd845843eff2bc);
+            ).addTo(feature_group_a4ed5a818b468b38719477f6dbfc06c7);
         
     
-            var icon_c3440075f2b75e0f7b8e7761ca5ef517 = L.AwesomeMarkers.icon(
+            var icon_39b3e063c2c3fbcad4fb78af4d0511df = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -852,24 +852,24 @@
             );
         
     
-        var popup_d945b8df365744ec2ecd3d40fc48f605 = L.popup({
+        var popup_554db237d9713509991382879e1b5450 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_df8c524d5e34f3ef5f77b5af887c3c5a = $(`<div id="html_df8c524d5e34f3ef5f77b5af887c3c5a" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Родники</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>102.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Ваня</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>305 км</td></tr></table></div></div>`)[0];
-                popup_d945b8df365744ec2ecd3d40fc48f605.setContent(html_df8c524d5e34f3ef5f77b5af887c3c5a);
+                var html_e02720fecda3714d3ef721f1d6f335a8 = $(`<div id="html_e02720fecda3714d3ef721f1d6f335a8" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Родники</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>102.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Ваня</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>305 км</td></tr></table></div></div>`)[0];
+                popup_554db237d9713509991382879e1b5450.setContent(html_e02720fecda3714d3ef721f1d6f335a8);
             
         
 
-        marker_a65e26e15edd232d778bf866682064c9.bindPopup(popup_d945b8df365744ec2ecd3d40fc48f605)
+        marker_dcf594005b50ff1f62c1593eac3d4297.bindPopup(popup_554db237d9713509991382879e1b5450)
         ;
 
         
     
     
-            marker_a65e26e15edd232d778bf866682064c9.bindTooltip(
+            marker_dcf594005b50ff1f62c1593eac3d4297.bindTooltip(
                 `<div>
                      Родники — 1 станций
                  </div>`,
@@ -879,25 +879,25 @@
             );
         
     
-                marker_a65e26e15edd232d778bf866682064c9.setIcon(icon_c3440075f2b75e0f7b8e7761ca5ef517);
+                marker_dcf594005b50ff1f62c1593eac3d4297.setIcon(icon_39b3e063c2c3fbcad4fb78af4d0511df);
             
     
-            feature_group_2046f841e2f2cef005dd845843eff2bc.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_a4ed5a818b468b38719477f6dbfc06c7.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_44324a8711eced39524bc22bc9bf66bb = L.featureGroup(
+            var feature_group_7b2ee08b96ca5bfd4375ac2e6465ee2a = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_ff8089941a86d598ba4635c42eda13c6 = L.polyline(
+            var poly_line_10a9a94f38b9be33ca402cbf35483b65 = L.polyline(
                 [[56.851607, 36.687092], [56.833911519333334, 36.72779585025], [56.817485350666665, 36.768668811000005], [56.802328493999994, 36.809710882249995], [56.78844094933335, 36.850922064], [56.775822716666674, 36.89230235625], [56.764473796, 36.933851759], [56.75439418733333, 36.97557027225], [56.745583890666666, 37.017457895999996], [56.738042906000004, 37.05951463025001], [56.73177123333333, 37.101740475], [56.72676887266667, 37.14413543025], [56.723035824, 37.186699496], [56.72057208733333, 37.22943267225], [56.71937766266667, 37.272334959000005], [56.71945255, 37.31540635625], [56.72079674933333, 37.358646864], [56.72341026066666, 37.402056482249996], [56.727293084, 37.445635210999995], [56.732445219333336, 37.48938305025], [56.73886666666667, 37.5333]],
                 {"bubblingMouseEvents": true, "color": "#1565c0", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1565c0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_44324a8711eced39524bc22bc9bf66bb);
+            ).addTo(feature_group_7b2ee08b96ca5bfd4375ac2e6465ee2a);
         
     
-            poly_line_ff8089941a86d598ba4635c42eda13c6.bindTooltip(
+            poly_line_10a9a94f38b9be33ca402cbf35483b65.bindTooltip(
                 `<div>
                      Талдом — 3 станций, ср. 51 км
                  </div>`,
@@ -907,14 +907,14 @@
             );
         
     
-            var marker_0fd723f4e62f68bff23c93e7476a59db = L.marker(
+            var marker_2cea39d4f826ae1c1dd6a9bb9953bb3c = L.marker(
                 [56.73886666666667, 37.5333],
                 {
 }
-            ).addTo(feature_group_44324a8711eced39524bc22bc9bf66bb);
+            ).addTo(feature_group_7b2ee08b96ca5bfd4375ac2e6465ee2a);
         
     
-            var icon_187a9948bf6c46ac4a08a166c016f8a7 = L.AwesomeMarkers.icon(
+            var icon_533035a45e257923b4c1ff705a7ece93 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -925,24 +925,24 @@
             );
         
     
-        var popup_ced23ed50cea4eda1be321980f63fadb = L.popup({
+        var popup_255c1a68edb4390533887605c787b895 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_25223fb7c96fa9023b7d81fcca0f67d8 = $(`<div id="html_25223fb7c96fa9023b7d81fcca0f67d8" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Талдом</b> <span style='color:#888;'>(3 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>91.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>РРД</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>51 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>51 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Спутник</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>51 км</td></tr></table></div></div>`)[0];
-                popup_ced23ed50cea4eda1be321980f63fadb.setContent(html_25223fb7c96fa9023b7d81fcca0f67d8);
+                var html_171a0c0015cc6c468c6f72bce7fb76f6 = $(`<div id="html_171a0c0015cc6c468c6f72bce7fb76f6" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Талдом</b> <span style='color:#888;'>(3 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>91.0</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>РРД</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>51 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>51 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Спутник</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>51 км</td></tr></table></div></div>`)[0];
+                popup_255c1a68edb4390533887605c787b895.setContent(html_171a0c0015cc6c468c6f72bce7fb76f6);
             
         
 
-        marker_0fd723f4e62f68bff23c93e7476a59db.bindPopup(popup_ced23ed50cea4eda1be321980f63fadb)
+        marker_2cea39d4f826ae1c1dd6a9bb9953bb3c.bindPopup(popup_255c1a68edb4390533887605c787b895)
         ;
 
         
     
     
-            marker_0fd723f4e62f68bff23c93e7476a59db.bindTooltip(
+            marker_2cea39d4f826ae1c1dd6a9bb9953bb3c.bindTooltip(
                 `<div>
                      Талдом — 3 станций
                  </div>`,
@@ -952,25 +952,25 @@
             );
         
     
-                marker_0fd723f4e62f68bff23c93e7476a59db.setIcon(icon_187a9948bf6c46ac4a08a166c016f8a7);
+                marker_2cea39d4f826ae1c1dd6a9bb9953bb3c.setIcon(icon_533035a45e257923b4c1ff705a7ece93);
             
     
-            feature_group_44324a8711eced39524bc22bc9bf66bb.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_7b2ee08b96ca5bfd4375ac2e6465ee2a.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_e7eac2dd3ebdc3b05980ba9b1c683f02 = L.featureGroup(
+            var feature_group_673597091988625ffc3fbce0c03e4609 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_0046adbe3e2da952d16d0f6040bcca44 = L.polyline(
+            var poly_line_cf1e4dec78a08d9240ac98a6a155d14e = L.polyline(
                 [[56.851607, 36.687092], [56.86295726781818, 36.648284316159085], [56.87314101127273, 36.60946858372728], [56.88215823036363, 36.57064480270454], [56.890008925090925, 36.531812973090915], [56.89669309545455, 36.492973094886366], [56.902210741454546, 36.45412516809091], [56.90656186309091, 36.41526919270455], [56.909746460363635, 36.376405168727274], [56.91176453327274, 36.33753309615909], [56.912616081818186, 36.298652975], [56.912301106, 36.25976480525], [56.91081960581818, 36.22086858690909], [56.908171581272725, 36.181964319977276], [56.904357032363635, 36.143052004454546], [56.89937595909091, 36.10413164034091], [56.89322836145455, 36.06520322763637], [56.88591423945454, 36.02626676634091], [56.877433593090906, 35.98732225645455], [56.867786422363636, 35.94836969797728], [56.856972727272726, 35.909409090909094]],
                 {"bubblingMouseEvents": true, "color": "#1565c0", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1565c0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_e7eac2dd3ebdc3b05980ba9b1c683f02);
+            ).addTo(feature_group_673597091988625ffc3fbce0c03e4609);
         
     
-            poly_line_0046adbe3e2da952d16d0f6040bcca44.bindTooltip(
+            poly_line_cf1e4dec78a08d9240ac98a6a155d14e.bindTooltip(
                 `<div>
                      Тверь — 22 станций, ср. 35 км
                  </div>`,
@@ -980,14 +980,14 @@
             );
         
     
-            var marker_89cb42601ad553fa0bc48cc39354f42d = L.marker(
+            var marker_1dc81b260fe5d709c3db109a2f07cfd6 = L.marker(
                 [56.856972727272726, 35.909409090909094],
                 {
 }
-            ).addTo(feature_group_e7eac2dd3ebdc3b05980ba9b1c683f02);
+            ).addTo(feature_group_673597091988625ffc3fbce0c03e4609);
         
     
-            var icon_bcf77f253a509506ba2bf09842e3587a = L.AwesomeMarkers.icon(
+            var icon_b7bca31bcf7c640e37961a2171602311 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -998,24 +998,24 @@
             );
         
     
-        var popup_2a3082f002b80c6a0cabff4a54738197 = L.popup({
+        var popup_bdb0ebc3154321cbff8899cd239eadc4 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_8d9f6f8f8058aa7bd61addf31a260dbb = $(`<div id="html_8d9f6f8f8058aa7bd61addf31a260dbb" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Тверь</b> <span style='color:#888;'>(22 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>89.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Вера</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>89.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Джаз</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Детское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>93.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Монте Карло</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.1</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Хит ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Новое Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>97.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Наше Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Звезда</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>99.3</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Комсомольская Правда</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>99.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Energy FM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>100.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>101.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Авто Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>102.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Ретро ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>103.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Серебряный Дождь</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.3</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Гордость</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Шансон</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Love Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Европа Плюс</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.3</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио 7</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Дорожное Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Дача</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr></table></div></div>`)[0];
-                popup_2a3082f002b80c6a0cabff4a54738197.setContent(html_8d9f6f8f8058aa7bd61addf31a260dbb);
+                var html_ccfc149186ab8282590ea86358c826bd = $(`<div id="html_ccfc149186ab8282590ea86358c826bd" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Тверь</b> <span style='color:#888;'>(22 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>89.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Вера</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>89.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Джаз</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>90.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Детское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>93.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио России</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>95.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Монте Карло</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.1</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Хит ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Новое Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>97.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Наше Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>98.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Звезда</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>99.3</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Комсомольская Правда</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>99.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Energy FM</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>100.6</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Русское Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>101.4</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Авто Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>102.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Ретро ФМ</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>103.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Серебряный Дождь</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.3</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Гордость</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>104.8</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Шансон</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.5</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Love Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>105.9</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Европа Плюс</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.3</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио 7</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>106.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Дорожное Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>107.2</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Радио Дача</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>35 км</td></tr></table></div></div>`)[0];
+                popup_bdb0ebc3154321cbff8899cd239eadc4.setContent(html_ccfc149186ab8282590ea86358c826bd);
             
         
 
-        marker_89cb42601ad553fa0bc48cc39354f42d.bindPopup(popup_2a3082f002b80c6a0cabff4a54738197)
+        marker_1dc81b260fe5d709c3db109a2f07cfd6.bindPopup(popup_bdb0ebc3154321cbff8899cd239eadc4)
         ;
 
         
     
     
-            marker_89cb42601ad553fa0bc48cc39354f42d.bindTooltip(
+            marker_1dc81b260fe5d709c3db109a2f07cfd6.bindTooltip(
                 `<div>
                      Тверь — 22 станций
                  </div>`,
@@ -1025,25 +1025,25 @@
             );
         
     
-                marker_89cb42601ad553fa0bc48cc39354f42d.setIcon(icon_bcf77f253a509506ba2bf09842e3587a);
+                marker_1dc81b260fe5d709c3db109a2f07cfd6.setIcon(icon_b7bca31bcf7c640e37961a2171602311);
             
     
-            feature_group_e7eac2dd3ebdc3b05980ba9b1c683f02.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_673597091988625ffc3fbce0c03e4609.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var feature_group_6f405e705380c84456c72501c0aca649 = L.featureGroup(
+            var feature_group_29cc99bb6c8b9a3d803a8012cfb1d88f = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_9b2b64d20a8b2f30fa94c332b37e64d8 = L.polyline(
+            var poly_line_036b2b898abd8d2688205ffdabc4a8e0 = L.polyline(
                 [[56.851607, 36.687092], [56.885207236, 36.60366152525], [56.916226884000004, 36.519958511], [56.94466594399999, 36.43598295725], [56.97052441600001, 36.35173486400001], [56.9938023, 36.26721423125001], [57.01449959599999, 36.18242105899999], [57.032616303999994, 36.09735534725], [57.048152424, 36.012017096], [57.061107956, 35.926406305250005], [57.0714829, 35.840522975000006], [57.079277256, 35.754367105250004], [57.084491024, 35.667938696], [57.087124204, 35.58123774725], [57.087176795999994, 35.494264259000005], [57.0846488, 35.40701823125001], [57.079540216, 35.319499664000006], [57.07185104399999, 35.23170855725], [57.061581284, 35.143644911], [57.048730936, 35.05530872525], [57.0333, 34.9667]],
                 {"bubblingMouseEvents": true, "color": "#ef6c00", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef6c00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_6f405e705380c84456c72501c0aca649);
+            ).addTo(feature_group_29cc99bb6c8b9a3d803a8012cfb1d88f);
         
     
-            poly_line_9b2b64d20a8b2f30fa94c332b37e64d8.bindTooltip(
+            poly_line_036b2b898abd8d2688205ffdabc4a8e0.bindTooltip(
                 `<div>
                      Торжок — 1 станций, ср. 115 км
                  </div>`,
@@ -1053,14 +1053,14 @@
             );
         
     
-            var marker_8a9cfe7b7e4da18d11cd0e687f0e5edc = L.marker(
+            var marker_3b0c69c1d13f49c579d3004042ba9b34 = L.marker(
                 [57.0333, 34.9667],
                 {
 }
-            ).addTo(feature_group_6f405e705380c84456c72501c0aca649);
+            ).addTo(feature_group_29cc99bb6c8b9a3d803a8012cfb1d88f);
         
     
-            var icon_6e673787832ae59d1dc02e2f4e77a725 = L.AwesomeMarkers.icon(
+            var icon_4f4300448a06b331308501f9bf9dd78f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -1071,24 +1071,24 @@
             );
         
     
-        var popup_31561e9c0745538d9acd7b57cf8e0394 = L.popup({
+        var popup_d937ce7bf0346f7ead13ad1f6525c08b = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_32f17cc3c0f344f9bf951aab7371b713 = $(`<div id="html_32f17cc3c0f344f9bf951aab7371b713" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Торжок</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Авто Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>115 км</td></tr></table></div></div>`)[0];
-                popup_31561e9c0745538d9acd7b57cf8e0394.setContent(html_32f17cc3c0f344f9bf951aab7371b713);
+                var html_3fa745f9028f5e26282cd2cc00f09c09 = $(`<div id="html_3fa745f9028f5e26282cd2cc00f09c09" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;min-width:280px;'><b style='font-size:15px;'>Торжок</b> <span style='color:#888;'>(1 станций)</span><table style='border-collapse:collapse;margin-top:6px;width:100%;'><tr style='background:#f5f5f5;'><th style='padding:4px 8px;text-align:left;'>МГц</th><th style='padding:4px 8px;text-align:left;'>Станция</th><th style='padding:4px 8px;text-align:left;'>Расст.</th></tr><tr><td style='padding:3px 8px;border-bottom:1px solid #eee;'><b>96.7</b></td><td style='padding:3px 8px;border-bottom:1px solid #eee;'>Авто Радио</td><td style='padding:3px 8px;border-bottom:1px solid #eee;color:#888;font-size:11px;'>115 км</td></tr></table></div></div>`)[0];
+                popup_d937ce7bf0346f7ead13ad1f6525c08b.setContent(html_3fa745f9028f5e26282cd2cc00f09c09);
             
         
 
-        marker_8a9cfe7b7e4da18d11cd0e687f0e5edc.bindPopup(popup_31561e9c0745538d9acd7b57cf8e0394)
+        marker_3b0c69c1d13f49c579d3004042ba9b34.bindPopup(popup_d937ce7bf0346f7ead13ad1f6525c08b)
         ;
 
         
     
     
-            marker_8a9cfe7b7e4da18d11cd0e687f0e5edc.bindTooltip(
+            marker_3b0c69c1d13f49c579d3004042ba9b34.bindTooltip(
                 `<div>
                      Торжок — 1 станций
                  </div>`,
@@ -1098,40 +1098,40 @@
             );
         
     
-                marker_8a9cfe7b7e4da18d11cd0e687f0e5edc.setIcon(icon_6e673787832ae59d1dc02e2f4e77a725);
+                marker_3b0c69c1d13f49c579d3004042ba9b34.setIcon(icon_4f4300448a06b331308501f9bf9dd78f);
             
     
-            feature_group_6f405e705380c84456c72501c0aca649.addTo(map_799e3311a338a27429a060b10245ae5b);
+            feature_group_29cc99bb6c8b9a3d803a8012cfb1d88f.addTo(map_75d4889baa62235debe4a95fcea9a00c);
         
     
-            var layer_control_106bbdf9086f9e2149112fa8cb2d691d_layers = {
+            var layer_control_f29d15650feefcb3aa0e4b6b20a80d57_layers = {
                 base_layers : {
-                    "https://tile.openstreetmap.de/{z}/{x}/{y}.png" : tile_layer_5f4735ea7845a4a3424caeae41ac465e,
+                    "https://server.arcgisonline.com/arcgis/rest/services/world_street_map/mapserver/tile/{z}/{y}/{x}" : tile_layer_39f802c0c6be3019dad48a8fc1f0eb41,
                 },
                 overlays :  {
-                    "\u0414\u0443\u0431\u043d\u0430" : feature_group_79628d6204fd4cb5a3ca71585f5f8ae3,
-                    "\u041a\u0430\u0448\u0438\u043d" : feature_group_76573eca0fe1319020a0d6e5c508d0b1,
-                    "\u041a\u0438\u043c\u0440\u044b" : feature_group_ed268e52a59846ea028c6910b57e5abe,
-                    "\u041a\u043b\u0438\u043d" : feature_group_bda757a13f74b81562b3fe19fa57098f,
-                    "\u041a\u043e\u043d\u0430\u043a\u043e\u0432\u043e" : feature_group_668fbb63813b6de6f9f713abd34a8407,
-                    "\u041c\u043e\u0441\u043a\u0432\u0430" : feature_group_c76dd3785346ca7c813191eaf83bf3a1,
-                    "\u041d\u043e\u0432\u043e\u0437\u0430\u0432\u0438\u0434\u043e\u0432\u0441\u043a\u0438\u0439" : feature_group_1a67625a1761bcdc3749d01d2fced569,
-                    "\u0420\u0436\u0435\u0432" : feature_group_0674ed02d2ac9755e2db128d4098069b,
-                    "\u0420\u043e\u0434\u043d\u0438\u043a\u0438" : feature_group_2046f841e2f2cef005dd845843eff2bc,
-                    "\u0422\u0430\u043b\u0434\u043e\u043c" : feature_group_44324a8711eced39524bc22bc9bf66bb,
-                    "\u0422\u0432\u0435\u0440\u044c" : feature_group_e7eac2dd3ebdc3b05980ba9b1c683f02,
-                    "\u0422\u043e\u0440\u0436\u043e\u043a" : feature_group_6f405e705380c84456c72501c0aca649,
+                    "\u0414\u0443\u0431\u043d\u0430" : feature_group_5f76d16c60bf6b827f8525f6810ecc87,
+                    "\u041a\u0430\u0448\u0438\u043d" : feature_group_b495e5bbbe69714126e894fe6b50eb22,
+                    "\u041a\u0438\u043c\u0440\u044b" : feature_group_056ea404622d798c07557c8a2a5e4a23,
+                    "\u041a\u043b\u0438\u043d" : feature_group_f954cdc62d31446dc6bae046f4eea741,
+                    "\u041a\u043e\u043d\u0430\u043a\u043e\u0432\u043e" : feature_group_e3567faa19638220b6d6fb98bd34e104,
+                    "\u041c\u043e\u0441\u043a\u0432\u0430" : feature_group_fb0c890b8f4f9d8f795a5b168d3770a7,
+                    "\u041d\u043e\u0432\u043e\u0437\u0430\u0432\u0438\u0434\u043e\u0432\u0441\u043a\u0438\u0439" : feature_group_45769d41630505e78029fe08943ab387,
+                    "\u0420\u0436\u0435\u0432" : feature_group_d182d89a45888742393557d31217d580,
+                    "\u0420\u043e\u0434\u043d\u0438\u043a\u0438" : feature_group_a4ed5a818b468b38719477f6dbfc06c7,
+                    "\u0422\u0430\u043b\u0434\u043e\u043c" : feature_group_7b2ee08b96ca5bfd4375ac2e6465ee2a,
+                    "\u0422\u0432\u0435\u0440\u044c" : feature_group_673597091988625ffc3fbce0c03e4609,
+                    "\u0422\u043e\u0440\u0436\u043e\u043a" : feature_group_29cc99bb6c8b9a3d803a8012cfb1d88f,
                 },
             };
-            let layer_control_106bbdf9086f9e2149112fa8cb2d691d = L.control.layers(
-                layer_control_106bbdf9086f9e2149112fa8cb2d691d_layers.base_layers,
-                layer_control_106bbdf9086f9e2149112fa8cb2d691d_layers.overlays,
+            let layer_control_f29d15650feefcb3aa0e4b6b20a80d57 = L.control.layers(
+                layer_control_f29d15650feefcb3aa0e4b6b20a80d57_layers.base_layers,
+                layer_control_f29d15650feefcb3aa0e4b6b20a80d57_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_799e3311a338a27429a060b10245ae5b);
+            ).addTo(map_75d4889baa62235debe4a95fcea9a00c);
 
         
 </script>
